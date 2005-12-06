@@ -1,4 +1,5 @@
 Summary:	lmctl - configuration tool for Logitech USB Mice
+Summary(pl):	lmctl - narzêdzie konfiguracyjne dla myszy USB Logitech
 Name:		lmctl
 Version:	0.3.2
 Release:	0.1
@@ -12,9 +13,15 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 lmctl can enable and disable the special features on recent Logitech
-mice (if they're connected to a USB port). Features like wireless status
-reporting, battery charge indication, resolution and SmartScroll can
-be controlled this way.
+mice (if they're connected to a USB port). Features like wireless
+status reporting, battery charge indication, resolution and
+SmartScroll can be controlled this way.
+
+%description -l pl
+lmctl potrafi w³±czaæ i wy³±czaæ specjalne mo¿liwo¶ci nowych myszu
+Logitech (je¶li s± pod³±czone do portu USB). Mo¿na w ten sposób
+sterowaæ mo¿liwo¶ciami takimi jak bezprzewodowe zg³aszanie stanu,
+wska¼nik ³adowania baterii, rozdzielczo¶æ czy SmartScroll.
 
 %prep
 %setup -q -n %{name}-0.3.1
