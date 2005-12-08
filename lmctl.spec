@@ -7,7 +7,7 @@ License:	GPL v2
 Group:		Applications/System
 Source0:	http://www.bedroomlan.org/~alexios/files/SOFTWARE/lmctl/%{name}_%{version}.tar.gz
 # Source0-md5:	c2acb088c95adeac68b6de8f05ddc0e4
-URL:		http://bedroomlan.dyndns.org/~alexios/coding_lmctl.html
+URL:		http://www.bedroomlan.org/~alexios/coding_lmctl.html
 BuildRequires:	libusb-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
