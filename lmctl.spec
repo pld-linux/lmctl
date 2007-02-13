@@ -1,5 +1,5 @@
 Summary:	lmctl - configuration tool for Logitech USB Mice
-Summary(pl.UTF-8):   lmctl - narzędzie konfiguracyjne dla myszy USB Logitech
+Summary(pl.UTF-8):	lmctl - narzędzie konfiguracyjne dla myszy USB Logitech
 Name:		lmctl
 Version:	0.3.2
 Release:	1
